@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>E-Library Catalog Management</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="app-wrap">
+        <h2>Digital Library Register</h2>
+        <div class="form-row">
+            <input type="text" id="bookTitle" placeholder="Book Title">
+            <input type="text" id="bookAuthor" placeholder="Author">
+            <button onclick="addBook()">Add Book</button>
+        </div>
+        <table class="book-table">
+            <thead><tr><th>Title</th><th>Author</th><th>Status</th><th>Action</th></tr></thead>
+            <tbody id="booksBody"></tbody>
+        </table>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,1 @@
+# Library Management Website - Team 1\n\nAdd, search and remove book records and track issue/return status in the browser.\n\n## Preview\nOpen `index.html` in any modern web browser.\n
